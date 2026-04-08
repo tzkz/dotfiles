@@ -1,0 +1,23 @@
+[user]
+	name = Timur
+	email = engineer@timurz.com
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	pl = pull
+	ps = push
+	lg = log --oneline --graph --all
+	lol = log --graph --decorate --oneline --all
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	last = log -1 HEAD
+	df = diff
+	dc = diff --cached
+	unstage = reset HEAD --
+	cob = checkout -b
+	amend = commit --amend
+	rb = rebase
+[core]
+	excludesFile = ~/.gitignore
+	editor = nvim
