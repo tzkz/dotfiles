@@ -5,7 +5,7 @@ return {
   branch = 'main',
   config = function()
     local treesitter = require 'nvim-treesitter'
-    local parsers = { 'bash', 'c', 'diff', 'html', 'javascript', 'typescript', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' }
+    local parsers = { 'bash', 'c', 'diff', 'html', 'javascript', 'typescript', 'go', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' }
 
     treesitter.install(parsers)
 
