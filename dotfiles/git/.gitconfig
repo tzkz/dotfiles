@@ -21,3 +21,5 @@
 [core]
 	excludesFile = ~/.gitignore
 	editor = nvim
+[pager]
+	branch = false
